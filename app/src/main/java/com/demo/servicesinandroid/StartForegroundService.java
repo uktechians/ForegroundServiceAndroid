@@ -14,7 +14,7 @@ public class StartForegroundService extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.start_foreground_service_activity);
+        setContentView(R.layout.activity_foreground_service);
 
         findViewById(R.id.btn_start_service).setOnClickListener(new View.OnClickListener() {
             @Override
